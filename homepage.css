@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif; 
+   
+}
+
+.navbar {
+    background-color: #2E4053; 
+    color: #fff; 
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+    height: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.logo img {
+    max-height: 40px; 
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+    padding-top: 50px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.nav-links a:hover {
+    color: #00f; 
+}
+
+.content {
+    background-image: url('bridge.jpg'); 
+    background-position: center;
+    background-attachment: fixed; 
+    height: 100vh; 
+    padding-top: 80px; 
+    margin: 0%;
+}
+.title{
+
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px solid black;
+    color: #212F3D;
+
+}
